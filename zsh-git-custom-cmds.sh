@@ -15,6 +15,6 @@ function git-local-ignore() {
 }
 
 # locally unginore
-function git-local-unginore() {
+function git-local-unignore() {
   git update-index --no-skip-worktree
 }
