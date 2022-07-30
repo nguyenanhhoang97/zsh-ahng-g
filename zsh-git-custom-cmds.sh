@@ -10,11 +10,11 @@ function git-push() {
 }
 
 # locally ignore
-function git-local-ignore() {
-  git update-index --skip-worktree
+function git-local-ignore($1) {
+  git update-index --skip-worktree $1
 }
 
 # locally unginore
-function git-local-unignore() {
-  git update-index --no-skip-worktree
+function git-local-unignore($1) {
+  git update-index --no-skip-worktree $1
 }
